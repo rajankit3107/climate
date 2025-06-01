@@ -44,7 +44,7 @@ export const WeatherDashboard = () => {
         <AlertTriangle className="h-4 w-4" />
         <AlertTitle>Location Required</AlertTitle>
         <AlertDescription className="flex flex-col gap-4">
-          <p>{locationError}</p>
+          <p>Please Enable Location Access to see Ypur Local Weather</p>
           <Button onClick={getLocation} variant={"outline"} className="w-fit cursor-pointer">
             <MapPin className="mr-2 h-4 w-4" />
             EnableLocation
