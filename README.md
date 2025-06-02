@@ -33,7 +33,7 @@ A modern, elegant weather application built with React and TypeScript that provi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/rajanit3107/weather-app.git
+git clone https://github.com/rajankit3107/weather-app.git
 cd weather-app
 ```
 
