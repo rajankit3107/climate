@@ -38,7 +38,7 @@ export interface WeatherData {
 
 export interface ForecastData {
     list : Array<{
-        dt : Number;
+        dt : number;
         main  :WeatherData["main"];
         weather : WeatherData["weather"];
         winf : WeatherData["wind"];
