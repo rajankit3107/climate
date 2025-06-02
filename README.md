@@ -1,4 +1,4 @@
-# Weather Application
+# CLIMATE
 
 A modern, elegant weather application built with React and TypeScript that provides real-time weather information with a clean and intuitive user interface.
 
