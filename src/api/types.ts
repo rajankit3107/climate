@@ -14,22 +14,22 @@ export interface WeatherData {
     coord : Coordinates;
     weather : WeatherCondition[];
     main : {
-        temp : Number;
-        feels_like : Number;
-        temp_min : Number;
-        temp_max : Number;
-        pressure : Number;
-        humidity : Number;
-        sea_level : Number;
-        grnd_level : Number;
+        temp : number;
+        feels_like : number;
+        temp_min : number;
+        temp_max : number;
+        pressure : number;
+        humidity : number;
+        sea_level : number;
+        grnd_level : number;
     };
     wind : {
-        speed : Number;
-        deg : Number
+        speed : number;
+        deg : number
     };
     sys : {
-        sunrise : Number;
-        sunset : Number;
+        sunrise : number;
+        sunset : number;
         country  :string;   
     };
     name : string;
@@ -41,14 +41,14 @@ export interface ForecastData {
         dt : number;
         main  :WeatherData["main"];
         weather : WeatherData["weather"];
-        winf : WeatherData["wind"];
+        wind : WeatherData["wind"];
         dt_txt : string;
     }>
     city : {
         name : string;
         country : string;
-        sunrise : Number;
-        sunset : Number
+        sunrise : number;
+        sunset : number
     }
 }
 
