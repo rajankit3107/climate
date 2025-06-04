@@ -1,10 +1,10 @@
 export interface Coordinates {
-    lat: Number;
-    lon: Number;
+    lat: number;
+    lon: number;
 }
 
 export interface WeatherCondition {
-    id:Number;
+    id:number;
     main:string;
     description : string;
     icon : string
