@@ -1,6 +1,6 @@
 # Climate - Modern Weather Application
 
-A sophisticated weather application built with React and TypeScript that provides real-time weather information with a beautiful and intuitive user interface. The application offers detailed weather forecasts, city search functionality, and the ability to save favorite locations.
+A sophisticated weather application built with React and TypeScript that provides real-time weather information with a beautiful and intuitive user interface. The application offers detailed weather forecasts, city search functionality, and the ability to save favorite location.
 
 ## Features
 
